@@ -208,12 +208,14 @@ section.success a.active {
 }
 
 #projects .portfolio-item,
+#calendar .portfolio-item,
 #companies .portfolio-item,
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 #projects .portfolio-item .portfolio-link,
+#calendar .portfolio-item .portfolio-link,
 #companies .portfolio-item .portfolio-link,
 #portfolio .portfolio-item .portfolio-link {
     display: block;
@@ -221,10 +223,12 @@ section.success a.active {
     margin: 0 auto;
     max-width: 400px;
 }
+#calendar,
 #companies{
     background: #f1f1f1;
 }
 #projects .portfolio-item .portfolio-link .caption,
+#calendar .portfolio-item .portfolio-link .caption,
 #companies .portfolio-item .portfolio-link .caption,
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
@@ -238,12 +242,14 @@ section.success a.active {
 }
 
 #projects .portfolio-item .portfolio-link .caption:hover,
+#calendar .portfolio-item .portfolio-link .caption:hover,
 #companies .portfolio-item .portfolio-link .caption:hover,
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
 #projects .portfolio-item .portfolio-link .caption .caption-content,
+#calendar .portfolio-item .portfolio-link .caption .caption-content,
 #companies .portfolio-item .portfolio-link .caption .caption-content,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
@@ -257,6 +263,7 @@ section.success a.active {
 }
 
 #projects .portfolio-item .portfolio-link .caption .caption-content i,
+#calendar .portfolio-item .portfolio-link .caption .caption-content i,
 #companies .portfolio-item .portfolio-link .caption .caption-content i,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
@@ -264,7 +271,9 @@ section.success a.active {
 
 #projects .portfolio-item .portfolio-link .caption .caption-content h3,
 #projects .portfolio-item .portfolio-link .caption .caption-content h4,
+#calendar .portfolio-item .portfolio-link .caption .caption-content h3,
 #companies .portfolio-item .portfolio-link .caption .caption-content h3,
+#calendar .portfolio-item .portfolio-link .caption .caption-content h4,
 #companies .portfolio-item .portfolio-link .caption .caption-content h4,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
@@ -272,12 +281,14 @@ section.success a.active {
 }
 
 #projects * ,
+#calendar * ,
 #companies * ,
 #portfolio * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
+    #calendar .portfolio-item ,
     #companies .portfolio-item ,
     #portfolio .portfolio-item {
         margin: 0 0 30px;
